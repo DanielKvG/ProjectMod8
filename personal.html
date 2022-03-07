@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!-- import roboto -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="general.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <title>VRain - Personal</title>
+    </head>
+
+    <body>
+        <header class='header'>
+            <img id="logo" src="./assets/LogoVR.png">
+            <nav class="tabs">
+                <ul>
+                    <li><a id="indextab" href="/index.html">Home</a></li>
+                    <li><a id="abouttab" href="/about.html">About</a></li>
+                    <li><a id="packagestab" href="/packages.html">Packages</a></li>
+                    <li><a id="contacttab" href="/contact.html">Contact</a></li>
+                    <li><a id="servicestab" href="/services.html">Services</a></li>
+                    <li><a id="logintab" href="/login.html">Login</a></li>
+                </ul>
+            </nav>  
+        </header>
+         
+        <main id="swup" class="transition-fade">
+            <background class="dark-back"></background>
+            <content class="content-login">
+                <div class="login-pic">
+                    <img id="headset-login" src="./assets/Headset-login.png">
+                </div>
+                <div class="client">
+                    <h1>Your package:</h1>
+                    <div class="specs">
+                        <div class="sort">
+                            <p>ORDERNUMBER</p>
+                            <p><b>comfort package</b><br>&nbsp;&nbsp;&bull; Charging boxes<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; VR headset<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; Controllers<br>&nbsp;&nbsp;&bull; Included helpdesk<br>&nbsp;&nbsp;&bull; Software</p>
+                            <p></p>
+                            <p>DELIVERED<br>HAND IN DATE<br>TOTAL<br>DEPOSIT<br>PRICE</p>
+                        </div>
+                        <div class="number">
+                            <p>3104763832</p>
+                            <p><b></b><br>6x<br><br><br>1x<br><br></p>
+                            <p></p>
+                            <p>01/02/2021<br>01/07/2021<br>5 months<br>&euro;2000<br>To be determinded</p>
+                        </div>
+                    </div>
+                </div>
+            </content>
+            <script src="./node_modules/swup/dist/swup.min.js"></script>
+            <script src="./node.js"></script>
+        </main> 
+    </body>
+</html>

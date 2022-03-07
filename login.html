@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<!-- import roboto -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="general.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <title>VRain - Login</title>
+    </head>
+
+    <body>
+        <header class='header'>
+            <img id="logo" src="./assets/LogoVR.png">
+            <nav class="tabs">
+                <ul>
+                    <li><a id="indextab" href="/index.html">Home</a></li>
+                    <li><a id="abouttab" href="/about.html">About</a></li>
+                    <li><a id="packagestab" href="/packages.html">Packages</a></li>
+                    <li><a id="contacttab" href="/contact.html">Contact</a></li>
+                    <li><a id="servicestab" href="/services.html">Services</a></li>
+                    <li><a id="logintab" href="/login.html">Login</a></li>
+                </ul>
+            </nav>  
+        </header>
+         
+        <main id="swup" class="transition-fade">
+            <background class="dark-back"></background>
+            <content class="content-login">
+                <div class="login-pic">
+                    <img id="headset-login" src="./assets/Headset-login.png">
+                    <div id="txt-login">
+                        <p>Join our community of all our future clients in exploring the adventurous world of virtual reality training.</p>
+                    </div>
+                </div>
+                <div class="client">
+                    <h1>Welcome!</h1>
+                    <input type="text" id="username" name="username" placeholder="USERNAME">
+                    <input type="text" id="password" name="password" placeholder="PASSWORD">
+                    <a id="login-btn" href="/personal.html">Login</a>
+                </div>
+            </content>
+            <script src="./node_modules/swup/dist/swup.min.js"></script>
+            <script src="./node.js"></script>
+        </main> 
+    </body>
+</html>

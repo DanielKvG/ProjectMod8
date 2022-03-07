@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!-- import roboto -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="general.css" rel="stylesheet" >
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <title>VRain</title>
+    </head>
+
+    <body>
+        <header class='header'>
+            <img id="logo" src="./assets/LogoVR.png">
+            <nav class="tabs">
+                <ul>
+                    <li><a id="indextab" href="/index.html">Home</a></li>
+                    <li><a id="abouttab" href="/about.html">About</a></li>
+                    <li><a id="packagestab" href="/packages.html">Packages</a></li>
+                    <li><a id="contacttab" href="/contact.html">Contact</a></li>
+                    <li><a id="servicestab" href="/services.html">Services</a></li>
+                    <li><a id="logintab" href="/login.html">Login</a></li>
+                </ul>
+            </nav>   
+        </header>
+        <main id="swup" class="transition-fade">
+            <div class="image-home">
+                <img id="homeheadset" src='./assets/Headset-frontpage.png'>
+            </div>
+            <div class="text">
+                <text id="head">Future of<br>Immersive Training</text>
+                <text id="underscript">Increase of workforce performance with VR training</text>
+            </div>
+        </main>
+        
+        <script src="./node_modules/swup/dist/swup.min.js"></script>
+        <script src="./node.js"></script>
+    </body>
+</html>

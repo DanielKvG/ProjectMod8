@@ -1,0 +1,417 @@
+.image-home {
+    position: relative;
+    height: 80%;
+}
+
+#homeheadset {
+    right: 5%;
+    position: absolute;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.text {
+    position: absolute;
+    display: grid;
+    left: 100px;
+    bottom: 60px;
+    opacity: 1;
+    transform: translateX(0);
+    transform-origin: right;
+    transition: 0.5s;
+}
+
+#head {
+    font-size: 100px;
+}
+
+#underscript {
+    color: #800000;
+    font-size: 30px;
+}
+
+.content-about {
+    display: flex;
+    height: 100%;
+}
+
+.content-services {
+    display: flex;
+    height: 100%;
+}
+
+.content-packages {
+    display: flex;
+    height: 100%;
+}
+
+.image {
+    margin: auto 0 auto 50px;
+    display: block;
+    align-content: center;
+    width: 45%;
+}
+
+#firstaid {
+    max-height: 500px;
+    width: 100%;
+    max-width: 60vw;
+    transform: translateY(-10%);
+}
+
+.textabout {
+    margin: 20px auto;
+    max-width: 45%;
+    padding-right: 25px;
+}
+
+#treadmill {
+    width: 70%;
+    display: none;
+}
+
+#headsetpackages {
+    max-height: 500px;
+    width: 100%;
+    max-width: 60vw;
+    transform: translateY(-10%);
+}
+
+#services {
+    max-height: 500px;
+    width: 100%;
+    max-width: 60vw;
+    transform: translateY(-10%);
+}
+
+.textabout button {
+    background-color: #800000;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 0 0 40px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.comfort {
+    height: auto;
+    opacity: 1;
+}
+
+.full {
+    height: auto;
+    opacity: 1;
+}
+
+#comf_more {
+    display: none;
+    padding-bottom: 20px;
+}
+
+#full_more {
+    display: none;
+    padding-bottom: 20px;
+}
+
+.options {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 50px;
+}
+
+#unitylink {
+    color: #800000;
+}
+
+.txt_opt p {
+    padding-bottom: 50px;
+    margin: 10px;
+}
+
+.btn_opt {
+    display: grid;
+}
+
+.contact-link {
+    color: #800000;
+}
+
+.red-back {
+    position:fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    background-color: #875A5A;
+}
+
+.content-contact {
+    display: flex;
+    height: 100%;
+}
+
+.img-contact {
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+
+#img-contact {
+    position: absolute;
+    width: 80%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.txt-contact {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    color: #DBDBDB;
+}
+
+.txt-contact-content {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    width: 90%;
+    transform: translateY(-50%);
+}
+
+.txt-contact button {
+    background-color: rgba(128, 0, 0, 0.8);
+    border: none;
+    color: #DBDBDB;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 0 0 40px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.textfield {
+    display: grid;
+    padding-right: 50px;
+    width: 30%;
+    height: 100%;
+    align-content: center;
+    transform: translateY(-5%);
+}
+
+.textfield p {
+    margin: 0 auto;
+}
+
+.textfield input {
+    padding: 10px;
+    border: none;
+    color: #DBDBDB;
+    background-color: #A99191;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.textfield textarea:focus {
+    outline: none !important;
+}
+
+.textfield input:focus {
+    outline: none !important;
+}
+
+.send-mail {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.send-mail button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transform: translateY(10px);
+}
+
+.send-mail img {
+    height: 38px;
+}
+
+#txt-question {
+    border: none;
+    background-color: #A99191;
+    border-radius: 20px;
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    resize: none;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#toTeam {
+    text-decoration: none;
+    color: inherit;
+}
+
+#team {
+    display: flex;
+    gap: 100px;
+}
+
+.dark-back {
+    position:fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    background-color: #2B2B2B;
+}
+
+.content-login {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.login-pic {
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: 100%;
+}
+
+.client {
+    width: 30%;
+    height: 100%;
+}
+
+#headset-login {
+    width: 85%;
+    margin: auto;
+    transform: translateY(-8%);
+}
+
+#txt-login {
+    position: absolute;
+    width: 80%;
+    top: 70%;
+    left: 10%;
+    color: #DBDBDB;
+}
+
+#txt-login p {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.client {
+    display: grid;
+    align-content: center;
+    gap: 40px;
+    transform: translateY(-10%);
+}
+
+.client input {
+    padding: 10px;
+    border-radius: 25px;
+    width: 80%;
+    background: #DBDBDB;
+}
+
+#username {
+    background-image: url('./assets/ic_person_outline_24px.png');
+    background-size:35px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 20px;
+    text-indent: 60px;
+}
+
+#password {
+    background-image: url('./assets/ic_lock_outline_24px.png');
+    background-size:30px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 24px;
+    text-indent: 60px;
+}
+
+#username:focus {
+    background-image:none;
+    text-indent:15px;
+    outline: none !important;
+}
+
+#password:focus {
+    background-image:none;
+    text-indent:15px;
+    outline: none !important;
+}
+
+#login-btn {
+    width: 80%;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #414040;
+    color: #DBDBDB;
+    text-decoration: none;
+    border: outset;
+    text-align: center;
+    font-size: 30px;
+}
+
+.client h1 {
+    color: #DBDBDB;
+    text-indent: 20px;
+    margin-bottom: 20px;
+}
+
+.specs {
+    margin-left: 40px;
+    display: flex;
+    gap: 50px;
+    color: #DBDBDB;
+}
+
+.specs p{
+    font-size: 18px;
+}
+
+.fullscreen {
+    position: absolute;
+    display: grid;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 30vw;
+    height: auto;
+    background-color: #DBDBDB;
+    z-index: 5;
+    border-radius: 30px;
+    border: 3px solid #800000;
+    box-shadow: -5px -5px 16px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.fullscreen.active {
+    opacity: 1;
+}
+
+.fullscreen button {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: inherit;
+}
